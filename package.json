@@ -1,0 +1,26 @@
+{
+  "name": "foodfresh-app",
+  "version": "1.0.0",
+  "description": "AI-Powered Food Freshness Detection System",
+  "main": "index.js",
+  "scripts": {
+    "install-all": "npm install && cd frontend && npm install && cd ../backend && npm install && cd ../ml-service && pip install -r requirements.txt",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\" \"npm run ml-service\"",
+    "frontend": "cd frontend && npm start",
+    "backend": "cd backend && npm run dev",
+    "ml-service": "cd ml-service && powershell -ExecutionPolicy Bypass -File start.ps1",
+    "build": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "ai",
+    "machine-learning",
+    "food-detection",
+    "react",
+    "material-ui"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

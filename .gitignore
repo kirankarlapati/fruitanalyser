@@ -1,0 +1,50 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+venv311/
+env/
+ENV/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+frontend/build/
+frontend/dist/
+backend/uploads/
+ml-service/uploads/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+coverage/
+.pytest_cache/
+
+# MongoDB
+data/
+
+# Python installers
+*.exe
