@@ -13,6 +13,7 @@ dotenv.config();
 const uploadRoute = require('./routes/upload');
 const historyRoute = require('./routes/history');
 const insightsRoute = require('./routes/insights');
+const chatbotRoute = require('./routes/chatbot');
 
 const app = express();
 
@@ -61,6 +62,7 @@ app.get('/', (req, res) => {
 app.use('/api/upload', uploadRoute);
 app.use('/api/history', historyRoute);
 app.use('/api/insights', insightsRoute);
+app.use('/api/chatbot', chatbotRoute);
 
 // Error handling middleware
 app.use((err, req, res, next) => {

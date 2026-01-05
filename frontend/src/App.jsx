@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { ThemeProvider, createTheme, CssBaseline } from '@mui/material';
 import Navbar from './components/Navbar';
+import Chatbot from './components/Chatbot';
 import HomePage from './pages/HomePage';
 import HistoryPage from './pages/HistoryPage';
 import InsightsPage from './pages/InsightsPage';
@@ -65,6 +66,7 @@ function App() {
           <Route path="/history" element={<HistoryPage />} />
           <Route path="/insights" element={<InsightsPage />} />
         </Routes>
+        <Chatbot />
       </Router>
     </ThemeProvider>
   );
