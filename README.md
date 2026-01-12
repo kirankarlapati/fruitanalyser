@@ -1,4 +1,4 @@
-# 🍎 FoodFresh - AI-Powered Food Freshness Detection System
+hey # 🍎 FoodFresh - AI-Powered Food Freshness Detection System
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![React](https://img.shields.io/badge/React-18.2.0-61dafb?logo=react)
@@ -633,7 +633,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👥 Authors
 
-- **Your Name** - *Initial work* - [YourGitHub](https://github.com/yourusername)
+- **Kiran karlapati** - (https://github.com/kirankarlapati)
+- **Akshatha Reddy Bolla** - (https://github.com/AkshathaBolla)
 
 ## 🙏 Acknowledgments
 
@@ -644,7 +645,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-For support, email your-email@example.com or open an issue in the repository.
+For support, email karlapatikiran@gmail.com or akshathabolla@gmail.com or open an issue in the repository.
 
 ---
 
