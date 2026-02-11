@@ -653,3 +653,5 @@ For support, email karlapatikiran@gmail.com or akshathabolla@gmail.com or open a
   <p>Made with ❤️ for the AI and Food Safety Community</p>
   <p>⭐ Star this repo if you find it helpful!</p>
 </div>
+#   f r u i t a n a l y s e r  
+ 
